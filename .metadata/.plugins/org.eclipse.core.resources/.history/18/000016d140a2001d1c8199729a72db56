@@ -1,0 +1,21 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.Rectangle;
+
+public class ExerciciosDois {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		Rectangle rg = new Rectangle();
+
+		System.out.println("Enter rectangle width and height: ");
+		
+		System.out.println("Area: " + rg.area());
+		System.out.println("Perimeter: " + rg.perimeter());
+		System.out.println("Diagonal: " + rg.diagonal());
+	}
+
+}

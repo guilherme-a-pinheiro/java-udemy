@@ -1,0 +1,28 @@
+package curso_programacao;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int funcNum = sc.nextInt();
+		int horasTrab = sc.nextInt();
+		double salarioHora = sc.nextDouble();
+		
+		double salario = salarioHora * horasTrab;
+		
+		System.out.println("Number = " + funcNum);
+		System.out.println("Salary = U$ " + salario);
+		
+		
+		
+		sc.close();
+	}
+
+}

@@ -1,0 +1,21 @@
+package curso_programacao;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		double comprimento, largura, precoMetroQuadrado, area;
+		
+		comprimento = 30;
+		largura = 10;
+		precoMetroQuadrado = 200;
+		
+		area = comprimento * largura;
+		
+		System.out.println(area);
+		
+		
+		
+	}
+
+}
