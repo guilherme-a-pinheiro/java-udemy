@@ -1,0 +1,27 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ExercicioCinco {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("What is the dollar price? ");
+		double price = sc.nextDouble();
+		
+		System.out.println("How many dollars will be bought? ");
+		double dollarsQuantity = sc.nextDouble();
+		
+		System.out.printf("Amount to be paid in reais = %.2f%n", totalPrice(price, dollarsQuantity));	
+	}
+	
+	public static double totalPrice(double price, double dollarsQuantity) {
+		final double IOF = 0.06;
+		return price * dollarsQuantity * IOF; 
+	}
+
+}
