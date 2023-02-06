@@ -1,0 +1,53 @@
+package entities;
+
+public class BankAccount {
+	int accountNumber;
+	String accountHolder;
+	String initalDeposit;
+	int initalDepositValue;
+	
+	public BankAccount(int accountNumber, String accountHolder, String initalDeposit, int initalDepositValue) {
+		super();
+		this.accountNumber = accountNumber;
+		this.accountHolder = accountHolder;
+		this.initalDeposit = initalDeposit;
+		this.initalDepositValue = initalDepositValue;
+	}
+
+	public BankAccount(int accountNumber, String accountHolder, String initalDeposit) {
+		super();
+		this.accountNumber = accountNumber;
+		this.accountHolder = accountHolder;
+		this.initalDeposit = initalDeposit;
+	}
+
+	public int getAccountNumber() {
+		return accountNumber;
+	}
+
+	public void setAccountNumber(int accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+
+	public String getAccountHolder() {
+		return accountHolder;
+	}
+
+	public void setAccountHolder(String accountHolder) {
+		this.accountHolder = accountHolder;
+	}
+
+	public void setInitalDeposit(String initalDeposit) {
+		this.initalDeposit = initalDeposit;
+	}
+
+	public int getInitalDepositValue() {
+		return initalDepositValue;
+	}
+
+	public void setInitalDepositValue(int initalDepositValue) {
+		this.initalDepositValue = initalDepositValue;
+	}
+	
+	
+}
