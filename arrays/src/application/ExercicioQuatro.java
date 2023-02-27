@@ -10,7 +10,7 @@ public class ExercicioQuatro {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Quantos número você vai digitar? ");
+		System.out.println("Quantos números você vai digitar? ");
 		int n = sc.nextInt();
 		
 		double[] vect = new double[n];
